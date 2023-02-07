@@ -23,7 +23,7 @@ jobs:
       - run:
           name: smoke-test1
           command: |
-            URL "https://blog.udacity.com"
+            URL "https://udacity.com"
             # Test if Website works or not!
             if curl -s --head ${URL}
             then
