@@ -23,7 +23,8 @@ jobs:
       - run:
           name: smoke-test1
           command: |
-            if curl -s --head "https://google.com"
+            URL = "https://google.com"
+            if curl -s --head $URL
             then
               return 0
             else
