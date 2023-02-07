@@ -1,2 +1,3 @@
-# Config-Deploy-job
-Running a configuration and deployment job 
+Smoke Tests
+==================
+- Check whether website is running or not 
